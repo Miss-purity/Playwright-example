@@ -1,7 +1,7 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
 
-test.setTimeout(30000);
+
 
 test.describe.serial('Playwright site checks', () => {
   test('has title', async ({ page }) => {
